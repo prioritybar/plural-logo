@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <img src="/logo.png" alt="">
-    </header>
-    <main>Welcome to Plural</main>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<style>
+			header {
+				/* background: green; */
+				height: 40px;
+				color: purple;
+                display: flex;
+                justify-content: space-between;
+                /* width: 100%; */
+                padding: 20px;
+			}
+            header img{
+                height: 20px;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            header img:hover{
+                transform: scale(1.1);
+                
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                font-weight: 600;
+                width: 20%;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0  30px;
+               
+            }
+            main{
+                margin-top: 20px;
+
+            }
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="/logo.png" alt="logo" />
+				<ul>
+					<li>Welcome</li>
+					<li>About</li>
+				</ul>
+		</header>
+		<main>Welcome to Plural</main>
+	</body>
 </html>
